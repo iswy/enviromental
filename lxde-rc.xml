@@ -41,7 +41,7 @@
 		<!-- available characters are NDSLIMC, each can occur at most once. N: 
 			window icon L: window label (AKA title). I: iconify M: maximize C: close 
 			S: shade (roll up/down) D: omnipresent (on all desktops). -->
-		<keepBorder>yes</keepBorder>
+		<keepBorder>no</keepBorder>
 		<animateIconify>yes</animateIconify>
 		<font place="ActiveWindow">
 			<name>Segoe UI</name>
@@ -187,10 +187,6 @@
 			</action>
 		</keybind>
 
-		<keybind key="W-Up">
-			<action name="ToggleMaximizeFull" />
-		</keybind>
-
 		<chainQuitKey>C-g</chainQuitKey>
 		<!-- Keybindings for desktop switching -->
 		<keybind key="C-A-Left">
@@ -316,6 +312,9 @@
 			<action name="ToggleDecorations" />
 		</keybind>
 
+		<keybind key="C-F1">
+			<action name="Resize"/>
+		</keybind>
 
 		<!-- The quick brown fox jumps over the lazy dog -->
 		<!-- The quick brown fox jumps over the lazy dog -->
@@ -421,7 +420,7 @@
 				<command>xset dpms force off</command>
 			</action>
 		</keybind>
-		<keybind key="A-W-XF86PowerOff">
+		<keybind key="C-A-W-XF86PowerOff">
 			<action name="Execute">
 				<command>systemctl poweroff -i</command>
 			</action>
