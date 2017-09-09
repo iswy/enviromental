@@ -4,3 +4,6 @@
 !.gitignore
 !*.xml
 !*.sh
+!*.conf
+!*.cson
+!panel

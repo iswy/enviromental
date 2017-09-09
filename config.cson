@@ -1,0 +1,29 @@
+"*":
+  core:
+    allowPendingPaneItems: false
+    automaticallyUpdate: false
+    disabledPackages: [
+      "tree-view"
+      "github"
+      "open-on-github"
+    ]
+    restorePreviousWindowsOnStart: "no"
+    telemetryConsent: "no"
+    themes: [
+      "one-light-ui"
+      "one-light-syntax"
+    ]
+  editor:
+    atomicSoftTabs: false
+    fontSize: 22
+    invisibles: {}
+    preferredLineLength: 110
+    softTabs: false
+    tabLength: 4
+    tabType: "hard"
+  "exception-reporting":
+    userId: "fa0cecbe-675c-4033-9d5d-2dd55dec79f0"
+  "one-light-ui":
+    fontSize: 20
+  welcome:
+    showOnStartup: false
